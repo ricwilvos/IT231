@@ -5,3 +5,5 @@ source "https://rubygems.org"
 
 gem 'sinatra'
 gem 'bundler'
+
+ruby '2.2.6'
