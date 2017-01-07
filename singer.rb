@@ -1,4 +1,4 @@
-# to run use a command like: ruby frank.rb -p $PORT -o $IP
+# to run use a command like: ruby singer.rb -p $PORT -o $IP
 
 require 'sinatra'
 
@@ -10,6 +10,7 @@ get '/' do
 end
 
 get '/two' do
+    
     @title = 'My bestest page'
     
     erb :two

@@ -1,3 +1,3 @@
-require './frank'
+require './singer'
 
 run Sinatra::Application
