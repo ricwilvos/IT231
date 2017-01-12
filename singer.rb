@@ -11,7 +11,7 @@ end
 
 get '/two' do
     
-    @title = 'My bestest page'
+    @title = 'My Second Page'
     
     erb :two
     
